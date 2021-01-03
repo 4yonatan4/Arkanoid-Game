@@ -1,0 +1,46 @@
+# Level 1
+# Flag Of Israel
+
+START_LEVEL
+level_name:Flag Of Israel
+ball_velocities:0,6 20,6 340,6 320,6 40,6
+background:image(background_images/israelFlag.png)
+paddle_speed:10
+paddle_width:100
+block_definitions:definitions/israelFlag_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:140
+row_height:30
+num_blocks:33
+START_BLOCKS
+lllllllllllllllll
+w-w-w-w-w-w-w-w
+-
+-b-b-b-b-b-b-b-b
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Birds
+
+START_LEVEL
+level_name:Sammy the fireman
+ball_velocities:45,6 -45,6 -30,6 30,6
+background:image(background_images/birds.jpg)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/birds_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:45
+START_BLOCKS
+-
+-
+bybybybybybybyb
+cgcgcgcgcgcgcgcg
+pwpwpwpwpwpwpwp
+END_BLOCKS
+END_LEVEL
+
